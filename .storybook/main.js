@@ -13,4 +13,5 @@ module.exports = {
   core: {
     builder: "@storybook/builder-webpack5",
   },
+  presets: [path.resolve(__dirname, "./nexxt-preset.js")],
 };
